@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: #555;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#login_name,
+#login_pass {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#after-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#user-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#messages {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    height: 300px;
+}
+
+#form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#input {
+    width: 60%;
+    padding: 8px;
+}
+
+#form button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
